@@ -1,0 +1,24 @@
+{
+  "job": "b0709857-0f93-498a-b74c-ed876aad4108",
+  "session": "1fcc4f14-5e20-4da8-92fd-a993d3a6bf3b",
+  "status": "completed",
+  "sources": 6,
+  "metrics": {
+    "run_id": "f6c7c592-5983-4208-abdf-36fe190631e5",
+    "session_id": "1fcc4f14-5e20-4da8-92fd-a993d3a6bf3b",
+    "model": "deepseek-v4-flash",
+    "mode": "pgvector",
+    "elapsed_ms": 22679,
+    "retrieval_ms": 852,
+    "vision_ms": 6311,
+    "first_token_ms": 8959,
+    "retrieved_chunks": 6,
+    "tool_calls": [
+      "analyze_pond_records"
+    ],
+    "invalid_citations": [],
+    "input_tokens": 14250,
+    "output_tokens": 913
+  },
+  "fixture": "Project SVG illustration and synthetic pond CSV; protocol/tool test, not visual accuracy evaluation"
+}

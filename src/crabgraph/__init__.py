@@ -1,0 +1,1 @@
+"""CrabGraph application package."""

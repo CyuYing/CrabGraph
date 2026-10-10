@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-10",
+  "automated_tests": 25,
+  "graph": {
+    "original_nodes": 26191,
+    "copy_nodes": 26191,
+    "original_edges": 27790,
+    "copy_edges": 27790,
+    "graphml_sha256": "99c37ad582b565f79a37c3e6a74b294c3a7439fd279eef3c011f0c86ce799d2b",
+    "label": "S. serrata",
+    "depth": 1,
+    "limit65": {
+      "nodes": 65,
+      "edges": 166,
+      "truncated": true
+    },
+    "limit300": {
+      "nodes": 174,
+      "edges": 300,
+      "truncated": false
+    },
+    "overview1000": {
+      "nodes": 1000,
+      "edges": 3388
+    }
+  },
+  "mcp": {
+    "listed_tools": 7,
+    "default_enabled": 5,
+    "crossref_results": 5,
+    "csv_statistics_error": false
+  },
+  "browser": {
+    "project_creation": true,
+    "project_pin": true,
+    "move_conversation_to_project": true,
+    "tool_disabled_persists_after_reload": true,
+    "disabled_tool_http_status": 403,
+    "graph_limit_switch": true,
+    "qwen_preset_fills_form": true,
+    "model_credentials_returned": false,
+    "settings_modal": true,
+    "modal_preserves_conversation_sources_and_draft": true,
+    "escape_returns_focus": true,
+    "background_inert": true,
+    "mobile_viewport_width": 390,
+    "mobile_document_width": 390,
+    "mobile_modal_body_horizontal_overflow": false,
+    "graph_switch_and_close_console_errors": 0,
+    "retrieval_dropdown_removed": true,
+    "project_dropdown_removed": true,
+    "knowledge_graph_switch_persists_after_reload": true,
+    "graph_switch_restored_enabled": true
+  },
+  "other_provider_live_model_calls": false,
+  "frontend_main_bundle_kb": 219.16,
+  "retrieval_preference_tests": {
+    "disabled_forces_naive": true,
+    "agent_cannot_override_disabled_graph": true,
+    "chat_and_research_keep_submission_policy": true,
+    "research_approval_verified_in_both_modes": true
+  }
+}

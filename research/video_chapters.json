@@ -1,0 +1,343 @@
+{
+  "bvid": "BV1yjz5BLEoY",
+  "title": "黑马程序员大模型RAG与Agent智能体项目实战教程，基于主流的LangChain技术从大模型提示词到实战项目",
+  "source": "https://www.bilibili.com/video/BV1yjz5BLEoY/",
+  "evidence": "公开简介和分集目录；未逐帧观看全部视频",
+  "chapters": [
+    {
+      "page": 1,
+      "part": "课程导学",
+      "duration": 318
+    },
+    {
+      "page": 2,
+      "part": "前置准备-01、通义千问大模型的接入",
+      "duration": 429
+    },
+    {
+      "page": 3,
+      "part": "前置准备-02、代码调用云端的大模型",
+      "duration": 483
+    },
+    {
+      "page": 4,
+      "part": "前置准备-03、使用环境变量保护APIKEY",
+      "duration": 489
+    },
+    {
+      "page": 5,
+      "part": "前置准备-04、Ollama简介",
+      "duration": 332
+    },
+    {
+      "page": 6,
+      "part": "前置准备-05、win&mac部署ollama并运行蒸馏模型",
+      "duration": 787
+    },
+    {
+      "page": 7,
+      "part": "前置准备-06、代码调用ollama的本地模型",
+      "duration": 221
+    },
+    {
+      "page": 8,
+      "part": "OpenAI库基础使用-01、OpenAI库的基础使用",
+      "duration": 872
+    },
+    {
+      "page": 9,
+      "part": "OpenAI库基础使用-02、OpenAI库的流式输出模式",
+      "duration": 315
+    },
+    {
+      "page": 10,
+      "part": "OpenAI库基础使用-03、OpenAI库附带历史消息调用模型",
+      "duration": 282
+    },
+    {
+      "page": 11,
+      "part": "提示词工程-01、大模型prompt工程指南",
+      "duration": 623
+    },
+    {
+      "page": 12,
+      "part": "提示词工程-02、提示词优化案例介绍和零样本少样本思想",
+      "duration": 695
+    },
+    {
+      "page": 13,
+      "part": "提示词工程-03、提示词优化案例_金融文本分类任务",
+      "duration": 839
+    },
+    {
+      "page": 14,
+      "part": "提示词工程-04、Json数据格式",
+      "duration": 897
+    },
+    {
+      "page": 15,
+      "part": "提示词工程-05、提示词优化案例_金融文本信息抽取",
+      "duration": 826
+    },
+    {
+      "page": 16,
+      "part": "提示词工程-06、提示词优化案例_金融文本匹配",
+      "duration": 620
+    },
+    {
+      "page": 17,
+      "part": "RAG开发-01、LangChain的简介",
+      "duration": 205
+    },
+    {
+      "page": 18,
+      "part": "RAG开发-02、LangChain的环境部署",
+      "duration": 215
+    },
+    {
+      "page": 19,
+      "part": "RAG开发-03、RAG介绍",
+      "duration": 824
+    },
+    {
+      "page": 20,
+      "part": "RAG开发-04、[扩展]向量的基础概念",
+      "duration": 548
+    },
+    {
+      "page": 21,
+      "part": "RAG开发-05、[扩展]余弦相似度算法",
+      "duration": 1080
+    },
+    {
+      "page": 22,
+      "part": "RAG开发-06、LangChain调用大语言模型",
+      "duration": 576
+    },
+    {
+      "page": 23,
+      "part": "RAG开发-07、LangChain模型的流式输出",
+      "duration": 362
+    },
+    {
+      "page": 24,
+      "part": "RAG开发-08、LangChain调用聊天模型",
+      "duration": 778
+    },
+    {
+      "page": 25,
+      "part": "RAG开发-09、LangChain消息的简写形式",
+      "duration": 470
+    },
+    {
+      "page": 26,
+      "part": "RAG开发-10、LangChain调用嵌入模型",
+      "duration": 731
+    },
+    {
+      "page": 27,
+      "part": "RAG开发-11、LangChain通用提示词模板",
+      "duration": 704
+    },
+    {
+      "page": 28,
+      "part": "RAG开发-12、FewShot提示词模板",
+      "duration": 1049
+    },
+    {
+      "page": 29,
+      "part": "RAG开发-13、模板类的format和invoke方法",
+      "duration": 873
+    },
+    {
+      "page": 30,
+      "part": "RAG开发-14、ChatPromptTemplate的使用",
+      "duration": 858
+    },
+    {
+      "page": 31,
+      "part": "RAG开发-15、Chain的基础使用",
+      "duration": 1093
+    },
+    {
+      "page": 32,
+      "part": "RAG开发-16、[扩展]或运算符的重写",
+      "duration": 927
+    },
+    {
+      "page": 33,
+      "part": "RAG开发-17、简单理解Runnable接口",
+      "duration": 466
+    },
+    {
+      "page": 34,
+      "part": "RAG开发-18、StrOutputParser字符串输出解析器",
+      "duration": 751
+    },
+    {
+      "page": 35,
+      "part": "RAG开发-19、JsonOutputParser和多模型执行链",
+      "duration": 1189
+    },
+    {
+      "page": 36,
+      "part": "RAG开发-20、自定义函数加入链",
+      "duration": 878
+    },
+    {
+      "page": 37,
+      "part": "RAG开发-21、Memory临时会话记忆",
+      "duration": 1684
+    },
+    {
+      "page": 38,
+      "part": "RAG开发-22、Memory长期会话记忆",
+      "duration": 1483
+    },
+    {
+      "page": 39,
+      "part": "RAG开发-23、CSVLoader",
+      "duration": 1000
+    },
+    {
+      "page": 40,
+      "part": "RAG开发-24、JSONLoader",
+      "duration": 1018
+    },
+    {
+      "page": 41,
+      "part": "RAG开发-25、TextLoader和文档分割器",
+      "duration": 714
+    },
+    {
+      "page": 42,
+      "part": "RAG开发-26、PyPDFLoader",
+      "duration": 418
+    },
+    {
+      "page": 43,
+      "part": "RAG开发-27、VectorStores向量存储",
+      "duration": 1313
+    },
+    {
+      "page": 44,
+      "part": "RAG开发-28、基于向量检索构建提示词",
+      "duration": 621
+    },
+    {
+      "page": 45,
+      "part": "RAG开发-29、RunnablePassthrough的使用",
+      "duration": 1420
+    },
+    {
+      "page": 46,
+      "part": "RAG项目-01、RAG项目案例介绍",
+      "duration": 377
+    },
+    {
+      "page": 47,
+      "part": "RAG项目-02、RAG项目-文本上传WEB服务",
+      "duration": 848
+    },
+    {
+      "page": 48,
+      "part": "RAG项目-03、RAG项目-md5工具函数开发",
+      "duration": 1033
+    },
+    {
+      "page": 49,
+      "part": "RAG项目-04、RAG项目-知识库更新服务",
+      "duration": 1143
+    },
+    {
+      "page": 50,
+      "part": "RAG项目-05、RAG项目-完成离线流程开发",
+      "duration": 772
+    },
+    {
+      "page": 51,
+      "part": "RAG项目-06、RAG项目-在线流程向量存储服务代码",
+      "duration": 676
+    },
+    {
+      "page": 52,
+      "part": "RAG项目-07、RAG项目-rag服务核心代码开发",
+      "duration": 862
+    },
+    {
+      "page": 53,
+      "part": "RAG项目-08、RAG项目-历史会话记录功能的实现",
+      "duration": 1163
+    },
+    {
+      "page": 54,
+      "part": "RAG项目-09、RAG项目-聊天页面开发",
+      "duration": 1385
+    },
+    {
+      "page": 55,
+      "part": "Agent智能体-01、Agent智能体介绍",
+      "duration": 388
+    },
+    {
+      "page": 56,
+      "part": "Agent智能体-02、Agent智能体初体验",
+      "duration": 740
+    },
+    {
+      "page": 57,
+      "part": "Agent智能体-03、Agent的流式输出",
+      "duration": 893
+    },
+    {
+      "page": 58,
+      "part": "Agent智能体-04、Agent的ReAct行动框架",
+      "duration": 583
+    },
+    {
+      "page": 59,
+      "part": "Agent智能体-05、Agent的middleware中间件",
+      "duration": 899
+    },
+    {
+      "page": 60,
+      "part": "Agent智能体-06、Agent智能体项目介绍",
+      "duration": 355
+    },
+    {
+      "page": 61,
+      "part": "Agent智能体-07、[Agent项目]日志和路径工具开发",
+      "duration": 1258
+    },
+    {
+      "page": 62,
+      "part": "Agent智能体-08、[Agent项目]配置工具文件工具和提示词加载工具开发",
+      "duration": 1738
+    },
+    {
+      "page": 63,
+      "part": "Agent智能体-09、[Agent项目]向量存储服务开发",
+      "duration": 2074
+    },
+    {
+      "page": 64,
+      "part": "Agent智能体-10、[Agent项目]RAG总结服务开发",
+      "duration": 741
+    },
+    {
+      "page": 65,
+      "part": "Agent智能体-11、[Agent项目]tools工具开发",
+      "duration": 1316
+    },
+    {
+      "page": 66,
+      "part": "Agent智能体-12、[Agent项目]中间件和Agent创建",
+      "duration": 2323
+    },
+    {
+      "page": 67,
+      "part": "Agent智能体-13、[Agent项目]用户界面开发",
+      "duration": 1048
+    }
+  ]
+}

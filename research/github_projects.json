@@ -1,0 +1,144 @@
+{
+  "collected_at": "2026-10-10T14:05:08.875450+08:00",
+  "queries": [
+    {
+      "source": "GitHub connector + earlier public search",
+      "queries": [
+        "lightrag stars:>100",
+        "langgraph rag agent stars:>500",
+        "multimodal rag stars:>500"
+      ],
+      "note": "Public REST rate limit hit; repository metadata collected through authenticated connector."
+    }
+  ],
+  "projects": [
+    {
+      "repository": "langgenius/dify",
+      "stars": 158043,
+      "forks": 24951,
+      "pushed_at": "2026-10-10T06:02:42Z",
+      "archived": false,
+      "license": "NOASSERTION",
+      "url": "https://github.com/langgenius/dify",
+      "default_branch": "main"
+    },
+    {
+      "repository": "open-webui/open-webui",
+      "stars": 154170,
+      "forks": 22554,
+      "pushed_at": "2026-10-09T21:28:43Z",
+      "archived": false,
+      "license": "NOASSERTION",
+      "url": "https://github.com/open-webui/open-webui",
+      "default_branch": "main"
+    },
+    {
+      "repository": "langchain-ai/langchain",
+      "stars": 147528,
+      "forks": 24754,
+      "pushed_at": "2026-10-09T18:13:03Z",
+      "archived": false,
+      "license": "MIT",
+      "url": "https://github.com/langchain-ai/langchain",
+      "default_branch": "master"
+    },
+    {
+      "repository": "fastapi/fastapi",
+      "stars": 102958,
+      "forks": 10014,
+      "pushed_at": "2026-10-08T12:29:28Z",
+      "archived": false,
+      "license": "MIT",
+      "url": "https://github.com/fastapi/fastapi",
+      "default_branch": "master"
+    },
+    {
+      "repository": "infiniflow/ragflow",
+      "stars": 91938,
+      "forks": 10939,
+      "pushed_at": "2026-10-10T05:52:21Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "url": "https://github.com/infiniflow/ragflow",
+      "default_branch": "main"
+    },
+    {
+      "repository": "streamlit/streamlit",
+      "stars": 45929,
+      "forks": 4415,
+      "pushed_at": "2026-10-10T05:33:34Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "url": "https://github.com/streamlit/streamlit",
+      "default_branch": "develop"
+    },
+    {
+      "repository": "langchain-ai/langgraph",
+      "stars": 42988,
+      "forks": 7304,
+      "pushed_at": "2026-10-10T03:23:57Z",
+      "archived": false,
+      "license": "MIT",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "default_branch": "main"
+    },
+    {
+      "repository": "HKUDS/LightRAG",
+      "stars": 40045,
+      "forks": 5677,
+      "pushed_at": "2026-10-08T18:04:42Z",
+      "archived": false,
+      "license": "MIT",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "default_branch": "main"
+    },
+    {
+      "repository": "HKUDS/RAG-Anything",
+      "stars": 23509,
+      "forks": 2733,
+      "pushed_at": "2026-10-06T12:00:49Z",
+      "archived": false,
+      "license": "MIT",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "default_branch": "main"
+    },
+    {
+      "repository": "raphaelmansuy/edgequake",
+      "stars": 2108,
+      "forks": 245,
+      "pushed_at": "2026-10-09T06:21:59Z",
+      "archived": false,
+      "license": "Apache-2.0",
+      "url": "https://github.com/raphaelmansuy/edgequake",
+      "default_branch": "edgequake-main"
+    },
+    {
+      "repository": "langchain-ai/retrieval-agent-template",
+      "stars": 175,
+      "forks": 54,
+      "pushed_at": "2026-10-09T03:32:03Z",
+      "archived": false,
+      "license": "MIT",
+      "url": "https://github.com/langchain-ai/retrieval-agent-template",
+      "default_branch": "main"
+    },
+    {
+      "repository": "shangxiang0907/HeiMa-AI-LLM-RAG-Agent-Dev",
+      "stars": 91,
+      "forks": 14,
+      "pushed_at": "2026-03-26T06:55:58Z",
+      "archived": false,
+      "license": "unconfirmed",
+      "url": "https://github.com/shangxiang0907/HeiMa-AI-LLM-RAG-Agent-Dev",
+      "default_branch": "main"
+    },
+    {
+      "repository": "1517005260/graph-rag-agent",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "repository": "explodinggradients/ragas",
+      "error": "HTTPError: HTTP Error 403: rate limit exceeded"
+    }
+  ]
+}

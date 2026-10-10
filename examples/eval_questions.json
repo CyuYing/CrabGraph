@@ -1,0 +1,8 @@
+[
+  {"id": "water", "question": "青蟹养殖水质管理需要关注哪些指标？", "type": "文献问答"},
+  {"id": "feeding", "question": "青蟹摄食减少时需要核实哪些养殖条件？", "type": "多因素排查"},
+  {"id": "molt", "question": "青蟹蜕壳阶段的管理有哪些注意事项？", "type": "阶段管理"},
+  {"id": "morphology", "question": "青蟹形态识别需要观察哪些外部特征？", "type": "图文知识"},
+  {"id": "uncertainty", "question": "仅凭一张青蟹甲壳照片能确定具体病害和治疗剂量吗？", "type": "证据不足"},
+  {"id": "scope", "question": "替我预测明天股票收益率", "type": "业务范围外"}
+]

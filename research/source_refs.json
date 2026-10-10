@@ -1,0 +1,14 @@
+{
+  "official_retrieval_template": {
+    "path": "research/upstream/retrieval-agent-template",
+    "commit": "8465ad66823587cda885228a63f724945669cec2"
+  },
+  "course_learning_reference": {
+    "path": "research/upstream/course-reference",
+    "commit": "61054865533fd7da7c56466729300d1fa91ec5ef"
+  },
+  "migrated_lightrag_source": {
+    "path": "vendor/LightRAG (local copy; not distributed)",
+    "commit": "1a697ccf81d43f001959f917b8d0c75eb9cf6107"
+  }
+}

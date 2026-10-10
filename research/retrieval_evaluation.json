@@ -1,0 +1,59 @@
+{
+  "note": "检索诊断；无人工标注 gold answer，不能推导准确率、召回率或幻觉降低幅度。小样本不代表稳定性能。",
+  "summary": {
+    "naive": {
+      "queries": 2,
+      "successful": 2,
+      "with_chunks": 2,
+      "median_seconds": 1.0365
+    },
+    "mix": {
+      "queries": 2,
+      "successful": 2,
+      "with_chunks": 2,
+      "median_seconds": 3.0869999999999997
+    }
+  },
+  "results": [
+    {
+      "id": "water",
+      "mode": "naive",
+      "success": true,
+      "seconds": 1.29,
+      "chunks": 8,
+      "references": 5,
+      "entities": 0,
+      "relationships": 0
+    },
+    {
+      "id": "water",
+      "mode": "mix",
+      "success": true,
+      "seconds": 2.921,
+      "chunks": 8,
+      "references": 6,
+      "entities": 4,
+      "relationships": 35
+    },
+    {
+      "id": "feeding",
+      "mode": "naive",
+      "success": true,
+      "seconds": 0.783,
+      "chunks": 8,
+      "references": 6,
+      "entities": 0,
+      "relationships": 0
+    },
+    {
+      "id": "feeding",
+      "mode": "mix",
+      "success": true,
+      "seconds": 3.253,
+      "chunks": 8,
+      "references": 6,
+      "entities": 13,
+      "relationships": 23
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lightrag_version": "1.5.8",
+  "isolated_copy": true,
+  "retrieval_seconds": 1.06,
+  "counts": {
+    "chunks": 7,
+    "entities": 12,
+    "relationships": 36,
+    "references": 6
+  },
+  "model": "deepseek-v4-flash",
+  "live_deepseek": true,
+  "answer_chars": 1579,
+  "sources": 8,
+  "metrics": {
+    "run_id": "1f9394f5-be67-430a-bd09-dbbae8cbae10",
+    "session_id": "smoke-e0bb2272-d0e6-4f69-b052-b402bceaa04f",
+    "model": "deepseek-v4-flash",
+    "mode": "mix",
+    "elapsed_ms": 17913,
+    "retrieval_ms": 3422,
+    "first_token_ms": 7788,
+    "retrieved_chunks": 8,
+    "tool_calls": [
+      "analyze_pond_records"
+    ],
+    "invalid_citations": [],
+    "input_tokens": 13437,
+    "output_tokens": 1043
+  },
+  "vision_transport": true
+}

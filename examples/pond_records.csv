@@ -1,0 +1,4 @@
+date,temperature,ph,dissolved_oxygen,salinity,ammonia_nitrogen
+2026-10-01,26.0,7.8,5.8,18,0.08
+2026-10-02,26.5,7.9,5.4,18,0.10
+2026-10-03,27.0,8.0,4.9,19,0.12

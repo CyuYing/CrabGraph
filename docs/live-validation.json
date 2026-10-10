@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-10",
+  "chat_job": "6b544ba6-335f-486e-b483-57e891606b9a",
+  "chat_session": "5505f05a-4c67-4764-90bc-c236c933e7b5",
+  "chat_sources": 8,
+  "chat_metrics": {
+    "run_id": "5b5cc0e5-d1b4-4dc6-b591-ce15244ce6e4",
+    "session_id": "5505f05a-4c67-4764-90bc-c236c933e7b5",
+    "model": "deepseek-v4-flash",
+    "mode": "mix",
+    "elapsed_ms": 18470,
+    "retrieval_ms": 3406,
+    "vision_ms": 0,
+    "first_token_ms": 5696,
+    "retrieved_chunks": 8,
+    "tool_calls": [],
+    "invalid_citations": [],
+    "input_tokens": 6115,
+    "output_tokens": 965
+  },
+  "research_job": "fcfc0e34-6dcf-48d7-9f81-83dee796e4a5",
+  "research_sources": 15,
+  "research_plan": {
+    "title": "青蟹养殖水质管理关键关注点与现场核实信息整理",
+    "queries": [
+      "青蟹养殖水质管理关键参数与标准",
+      "青蟹养殖水质管理文献结论与建议",
+      "青蟹养殖水质现场监测与核实要点"
+    ],
+    "approach": "首先检索青蟹养殖水质管理的核心文献，提取关键水质参数（如温度、盐度、pH、溶解氧、氨氮、亚硝酸盐等）的管理标准与结论。其次，区分文献中已证实的结论与需要现场核实的建议性内容，形成结构化整理。"
+  },
+  "research_metrics": {
+    "elapsed_ms": 41049,
+    "model": "deepseek-v4-flash",
+    "invalid_citations": [],
+    "input_tokens": 6123,
+    "output_tokens": 2273,
+    "total_tokens": 8396,
+    "input_token_details": {
+      "cache_read": 0
+    },
+    "output_token_details": {
+      "reasoning": 0
+    }
+  },
+  "pdf_bytes": 102137,
+  "mcp_tools": [
+    "search_crab_knowledge",
+    "analyze_pond_csv",
+    "search_reference_images"
+  ],
+  "mcp_csv_rows": 3,
+  "public_literature_results": 5,
+  "public_page_chars": 6636,
+  "pgvector": {
+    "status": "ok",
+    "engine": "PGlite PostgreSQL + pgvector",
+    "chunks": 1300,
+    "version": "0.8.1"
+  },
+  "original_storage_matches_snapshot": true,
+  "original_storage_files_checked": 12
+}

@@ -1,0 +1,24 @@
+{
+ "reference_url":"https://yuyuanweb.feishu.cn/wiki/D4VSwmWJviWiCekA78ocIZM5nz6",
+ "reference_title":"AI 超级智能体项目",
+ "date":"2026-10-10",
+ "basis":"对应技术能力的等价覆盖，不是相同 Java 依赖覆盖。按公开技术选型的16个条目逐项计数；未部署或只有适配的条目不计入。",
+ "items":[
+  {"reference":"Java 21 / Spring Boot 3","implementation":"Python 3.13 / FastAPI / Uvicorn","covered":true,"evidence":"实际 HTTP 服务、请求校验、后台执行与本地启动"},
+  {"reference":"Spring AI / LangChain4j","implementation":"LangChain / LangGraph","covered":true,"evidence":"真实 DeepSeek 模型调用与持久化智能体状态"},
+  {"reference":"RAG 知识库","implementation":"LightRAG 图谱与原文检索","covered":true,"evidence":"真实问答返回8个来源，研究任务返回15个来源"},
+  {"reference":"PGvector","implementation":"PGlite PostgreSQL / pgvector 0.8.1","covered":true,"evidence":"独立1300条1024维向量，Jina查询嵌入与cosine检索；本地单进程PostgreSQL内核"},
+  {"reference":"Tool Calling","implementation":"LangChain 业务工具调用","covered":true,"evidence":"DeepSeek实际调用analyze_pond_records，执行固定终端统计"},
+  {"reference":"MCP","implementation":"Python MCP SDK / stdio 服务与客户端","covered":true,"evidence":"真实initialize/list_tools/call_tool；图片检索与统计调用"},
+  {"reference":"ReAct Agent","implementation":"模型与工具循环 / LangGraph 规划审批工作流","covered":true,"evidence":"真实图文问答工具循环；研究计划、interrupt、resume、检索、报告"},
+  {"reference":"Serverless 计算服务","implementation":"Mangum 入口适配","covered":false,"evidence":"已实现Lambda HTTP事件适配测试，未云端部署，不计入覆盖"},
+  {"reference":"百炼大模型平台","implementation":"DeepSeek 兼容接口与模型配置","covered":true,"evidence":"按用户模型选择替代平台，真实完成生成与视觉协议调用"},
+  {"reference":"Cursor AI 编程 / MCP","implementation":"开发工具不纳入运行依赖","covered":false,"evidence":"未复现Cursor开发环境，不计入覆盖"},
+  {"reference":"SearchAPI / Pexels 等第三方接口","implementation":"Crossref / Wikimedia Commons","covered":true,"evidence":"书目检索返回5条，MCP参考图片检索返回结果与许可"},
+  {"reference":"Ollama 大模型部署","implementation":"当前默认DeepSeek远程接口","covered":false,"evidence":"未部署并验证本地模型，不计入覆盖"},
+  {"reference":"Kryo 序列化","implementation":"LangGraph JsonPlusSerializer / ormsgpack","covered":true,"evidence":"实际SQLite checkpoints的type为msgpack；审批恢复测试通过；未做序列化性能压测"},
+  {"reference":"Jsoup 网页抓取","implementation":"httpx / HTMLParser","covered":true,"evidence":"公开页面抓取6636字符；白名单与协议边界测试通过"},
+  {"reference":"iText PDF 生成","implementation":"ReportLab / 中文字体 / Markdown表格","covered":true,"evidence":"真实完成研究报告PDF导出；说明书另含页面截图和架构图"},
+  {"reference":"Knife4j 接口文档","implementation":"FastAPI OpenAPI / Swagger UI / ReDoc","covered":true,"evidence":"实际/openapi.json、/docs与/redoc可访问"}
+ ]
+}
